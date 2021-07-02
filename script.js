@@ -8,7 +8,7 @@ const form = document.getElementById('form');
 const search = document.getElementById('search');
 
 //Get initial movies
-//getMovies(API_URL);
+getMovies(API_URL);
 
 async function getMovies(url){
     const res = await fetch(url)
